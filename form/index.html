@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Application Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="The Master's Logo">
+            </div>
+        <h2>APPLICATION FORM</h2>
+
+        <form>
+            <div class="horizontal-container">
+                <div class="section">
+                    <p class="section-label"><strong>You are applying for Diploma Program in:</strong></p>
+                    <div class="radio-options">
+                        <label><input type="radio" name="program" value="NursingAide">Diploma in Nursing Aide & Caregiving</label>
+                        <label><input type="radio" name="program" value="BakingBread">Diploma in Baking Bread & Pastry Production</label>
+                        <label><input type="radio" name="program" value="CulinaryArts">Diploma in Culinary Arts</label>
+                        <label><input type="radio" name="program" value="HotelRestaurant">Diploma in Hotel Restaurant & Tourism Management</label>
+                        <label><input type="radio" name="program" value="DigitalCommercialPhotography">Diploma in Digital Commercial Photography</label>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <p class="section-label"><strong>Duration of the course:</strong></p>
+                    <div class="radio-options">
+                        <label><input type="radio" name="course_duration" value="Full Time"> Full Time</label>
+                        <label><input type="radio" name="course_duration" value="Part-time"> Part-time</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <label>Institution:</label>
+                <input type="text" name="institution" value="THE MASTER'S TRAINING INTERNATIONAL PTE LTD" readonly>
+            </div>
+
+            <div class="section">
+                <label>APPLICANT'S FULL NAME:</label>
+                <input type="text" name="fullName" placeholder="SUSILAWATI">
+            </div>
+
+            <div class="section">
+                <label>Types of Identification:</label>
+                <div class="inline-checkbox">
+                    <label><input type="checkbox" name="id_type"> Singapore Citizen</label>
+                    <label><input type="checkbox" name="id_type"> Work Permit</label>
+                    <label><input type="checkbox" name="id_type"> S Pass</label>
+                    <label><input type="checkbox" name="id_type"> Employment Pass</label>
+                </div>
+            </div><br>
+
+            <div class="section">
+                <div class="horizontal-form">
+                    <div class="form-group">
+                        <label for="idNumber">IDENTIFICATION NUMBER:</label>
+                        <input type="text" name="idNumber" id="idNumber" placeholder="G8883253T">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">EMAIL ADDRESS:</label>
+                        <input type="email" name="email" id="email" placeholder="N/A">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mobile">Mobile Number:</label>
+                        <input type="text" name="mobile" id="mobile" placeholder="8732793011">
+                    </div>
+                </div><br>
+                <div class="horizontal-form">
+                    <div class="form-group">
+                        <label>Date of Birth:</label>
+                        <input type="date" name="dob">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Nationality:</label>
+                        <input type="text" name="nationality" placeholder="INDONESIA">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Gender:</label>
+                            <select name="gender">
+                                <option value="">Select</option>
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                            </select>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="section">
+                <p>I agree to the Terms and Conditions. By submitting your profile, you have consented for The Master's Training International representatives to contact you.</p>
+            </div><br>
+
+            <div class="signature-section">
+                <label>Signature of student:</label><br>
+                <input type="text" name="signature" placeholder="Enter your name"><br>
+                <label>Date:</label>
+                <input type="date" name="signatureDate">
+            </div>
+        </form>
+
+        <div class="footer">
+        <p>The Master's Training International Pte Ltd</p>
+        <p>UEN: 202107558G</p>
+        <p>www.masters-training.com.sg</p>
+        <p>info@masters-training.com.sg</p>
+        </div><br>
+        
+        <div class="terms-section">
+            <h3>Terms and Condition:</h3>
+
+            <h4>Collection and Use of Personal Data</h4>
+
+            <p>
+                Collection of Personally Identifying Information. We do not directly collect any personally-identifying information through The Master’s online or offline applications. However, we do offer links to the Web sites of the various The Master’s Businesses, through which you may provide personal data.
+            </p>
+
+            <p>
+                In addition, we provide a Web page that allows you to apply for a position with one of The Master’s Businesses. In applying for employment, you may be asked to submit your name, postal address, phone number, email address, educational background, work background, and any additional information that you voluntarily decide to provide (“Application Data”).
+            </p>
+
+            <p>
+                Your Application Data is collected and processed by The Master’s Business to which you applied. The Master’s Business then uses your Application Data to evaluate your eligibility for open positions and to contact you regarding your application.
+            </p>
+
+            <p>
+                Sharing with Third Parties. Some of The Master’s Businesses may use service providers who process the Application Data. These service providers are restricted from using your personal data in any way other than for the service they are providing.
+            </p>
+
+            <p>
+                There may also be occasion for The Master’s Business to disclose your personal data to third parties if it believes, in its sole discretion, that such disclosure is required by law, to enforce its user agreement or privacy policy, or in connection with a sale or transfer of some or all of the assets in The Master’s Business.
+            </p>
+
+            <p>
+                Security. The Master’s is concerned with the security of your personal data. Each of The Master’s Businesses has put in place measures to keep your personal data secure.
+            </p>
+        </div><br>
+
+        <div class="logo-section">
+        <img src="logo.png" alt="The Master's Logo">
+        </div>
+
+        <div class="letter-title">Letter of Offer</div>
+
+        <div class="horizontal-form">
+            <div class="section">
+                <label>Date of Issue</label>
+                <input type="date" name="dob" id="dob">
+            </div>
+
+            <div class="section">
+                <label>Offer Date</label>
+                <input type="date" name="offerdate" id="offerdata">
+            </div>
+
+            <div class="section">
+                <label>Student ID</label>
+                <input type="text" name="studentid" id="studentid" placeholder="20-30098">
+            </div>
+        </div>
+
+        <div class="horizontal-form">
+            <div class="section">
+                <label>Name</label>
+                <input type="text" name="name" id="name" placeholder="SUSILAWATI">
+            </div>
+
+            <div class="section">
+                <label>Nationality</label>
+                <input type="text" name="nationality" id="nationality" placeholder="INDONESIA">
+            </div>
+
+            <div class="section">
+                <label>Mobile Number</label>
+                <input type="text" name="mobilenumber" id="mobilenumber" placeholder="8732793011">
+            </div>
+        </div>
+
+        <div class="horizontal-container">
+            <div class="section">
+                <label>Email Address</label><br>
+                <input type="text" name="email" id="email" placeholder="N/A">
+            </div>
+
+            <div class="section">
+                <label>Residential Address</label><br>
+                <input type="text" name="address" id="address" placeholder="573 Choa Chu Kang Street 52 02-288 S(680573)">
+            </div>
+        </div>
+
+        <div class="header">
+        <strong>Dear </strong><input type="text" name="name" id="name" placeholder="SUSILAWATI"><br>
+        I am pleased to offer you admission to the following programme.
+        </div>
+
+        <strong>Programme</strong>
+
+        <table>
+        <tr>
+            <th>Name of the Programme</th>
+            <td>Diploma in Culinary Arts</td>
+        </tr>
+        <tr>
+            <th>Commence Date</th>
+            <td>31-Aug-07</td>
+        </tr>
+        <tr>
+            <th>Exemption/ Discount</th>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <th>Conditions of this offer</th>
+            <td>N/A</td>
+        </tr>
+        </table>
+
+        <p>You must complete ALL levels or modules required by your above programme, unless you have been specifically exempted or listed above. If you wish to apply for exemption from certain modules in the programme you apply for:</p>
+
+        <p>If you wish to accept this offer, please complete and sign the following documents attached:</p>
+        <ol>
+        <li>Student Advisory Note (Form 12)</li>
+        <li>Standard Student Contract</li>
+        </ol>
+
+        <p>Your acceptance of this offer is confirmed upon signing of the Standard Student Contract and payment of the first installment.</p>
+
+        <p>We wish you every success and trust that your education experience with our Institute will be both an enjoyable and rewarding one.</p>
+
+        <div class="signature">
+        <p>Yours sincerely,</p>
+        <img src="sign.png" alt="Signature" height="50"><br><br>
+        <p><strong>Herminia Natalia Adorna</strong><br>
+            Chief Executive Officer<br>
+            The Master’s Training International<br>
+            Singapore</p>
+        </div>
+
+        <div class="footer">
+        The Master’s Training International Pte Ltd<br>
+        91 Bencoolen Street #09-07 Sunshine Plaza Singapore 189652<br>
+        Tel: 63392233 / 63392255<br>
+        Registered with Committee for Private Education (CPE)<br>
+        Registration No. 200708618E valid from 01/08/2009 to 31/07/2023<br>
+        <P style="text-align: right;">Regulation 25(5)(b)</P>
+        </div><br>
+
+
+            <h2>FORM 12</h2>
+            <h2>PRIVATE EDUCATION ACT(No. 21 of 2009)</h2>
+            <h2>PRIVATE EDUCATION REGULATIONS</h2>
+            <h2>ADVISORY NOTE TO STUDENT</h2>
+    
+
+        <p>
+            This note is for a prospective student.
+        </p>
+        <p>
+            You are strongly encouraged to thoroughly research on the private education institution (PEI) conducting the course before signing up for any course.																												
+            You should consider, for example, the reputation of the PEI, the teacher-student ratio of its classes, the qualifications of the teaching staff, and  the																												
+            course materials provided by the PEI.
+        </p>
+        <p>
+            By signing and returning the Student Contract (the "Contract"), you agree to the terms and conditions which will bind you and the PEI, if you accept the																												
+            PEI's off er of a place in a course of study offered or provided by the PEI. You should ask the PEI to allow you to read a copy of the Contract (with all																												
+            blanks filled in and options selected) in both English and the official language of your home country, if necessary. For your own protection, you should																												
+            review all the PEI' s policies, and check carefully that you agree to all the terms of the Contract, including the details relating to each of the following																												
+            sections, before signing the Contract:																												
+        </p>
+        
+        <ol>
+            <li>
+                The duration of the course, including holidays and examination schedules, and contact hours by days and week;	
+            </li>
+
+            <li>
+                The total fees payable, including course fees and other related costs;	
+            </li>	
+            
+            <li>
+                The total fees payable, including course fees and other related costs;
+            </li>
+
+            <li>
+                Dates when respective payments are due;
+            </li>
+                    
+            <li>
+                The refund policy in the event of voluntary withdrawal (by you) or enforced dismissal from the course or programme (by PEI);			
+            </li>
+                    
+            <li>
+                The Fee Protection Scheme you are subscribed to and its coverage;
+            </li>
+            <li>
+                The dispute resolution methods available; and
+            </li>
+                                                
+            <li>
+                Information about the PEI's policies on academic and disciplinary matters.
+            </li>
+            
+            <li>
+                The degree or diploma or qualification which will be awarded to you upon successful completion of the course.
+            </li>
+        </ol>
+
+        <p>
+            If you have any doubt about the contents of the Contract, or if the terms are different from what the agent or the PEI have																							
+            informed you previously, or advertised, you should always seek advice and/or clarifications before signing the Contract.																							
+        </p><hr>
+
+        <p>
+            This portion below is to be completed by the signatory of the Student Contract, i.e. either the student, or if the student is below the																									
+            age of 18, his parent or guardian.																									
+        </p>
+
+        <p>    I <input type=text name=name placeholder="SUSILAWATI"> (name of student), NRIC/ Passport number <input type="text" name="passport" placeholder="G8883253T">
+            have read and understood this advisory note before signing the Student Contract for myself	<input type="text" name="name" placeholder="SUSILAWATI">
+            NRIC/ Passport number <input type="text" name="passport" placeholder="G8883253T"> with The Master’sTraining International Pte Ltd (name of PEI)											
+        </p>
+
+        <div class="signature-section">
+                <p>
+                    _______________________
+                </p><br>
+                <label>Signature of student:</label><br>
+                <label>Date:</label>
+                <input type="date" name="signatureDate">
+        </div>
+        
+        <p style="text-align: center;">*Please delete whichever is inapplicable.</p>
+
+        <p style="text-align: right;">
+            Page 1 of 1<br>
+            Standard PEI-Student Contract Version 3.1<br>									
+            Standard TMTI-Student Contract Version 1.1									
+        </p>
+
+        <h2>PRIVATE EDUCATION INSTITUTION-STUDENT CONTRACT</h2>
+        
+        <p>
+            This Contract binds both the Private Education Institution (PEI) and the Student once both parties sign this Contract. If the Student is under																										
+            eighteen (18) years of age, the Student will be represented by the Parent/Legal Guardian.
+        </p>
+
+        <p>This Contract is made between:</p>
+
+        <ol>
+            <li> 
+                <table>
+                    <tr><td>Registered Name of PEI</td> <td>THE MASTER'S TRAINING INTERNATIONAL PTE LTD</td></tr>
+                    <tr><td>Registration Number</td> <td>201909892R</td></tr>	
+                </table>
+            </li>
+
+            <li> 
+                <table>
+                    <tr><td>Full Name of Student</td> <td>SUSILAWATI</td></tr>
+                    <tr>(as in NRIC for Singapore Citizen (SC) and Permanent Resident (PR) / Work Permit/ EP/ S-Pass number)*</tr>
+                    <tr><td>Registration Number</td> <td>201909892R</td></tr>	
+                </table>
+            </li>
+    
+        </ol>
+
+        <p>
+            * Delete as appropriate by striking through. Where non-applicable, put “N.A.”. Leave no fields blank. State all dates in the format of DD/MM/YYYY.	
+        </p>
+
+        <h4>1) COURSE INFORMATION AND FEES</h4>
+
+            <p>1.1) The PEI will deliver the Course as set out in Schedule A to the Student, towards conferment of the stated qualification upon successful Course completion.</p>
+            <p>1.2) The PEI confirms that the Course has been permitted by the Committee for Private Education (CPE) and no amendments have been made to the Course as set out in Schedule A, unless otherwise permitted by CPE.</p>
+            <p>1.3) The Course Fees payable are set out in Schedule B and the optional Miscellaneous Fees in Schedule C.</p>
+            <p>1.4) The PEI considers payment made 15 days/month* after the scheduled due date(s) in Schedule B as late. The PEI will explain to the Student its policy for late payment of Course Fees, including any late payment fee charged in Schedule C (if applicable) and any impact on Course/module completion (if applicable).</p>
+            
+        <h4>2) REFUND POLICY</h4>
+        <h4>2.1) Refund for Withdrawal Due to Non-Delivery of Course:</h4>
+            <p>The PEI will notify the Student within three (3) working days upon knowledge of any of the following:</p>
+            <p>(i) It does not commence the Course on the Course Commencement Date;</p>
+            <p>(ii) It terminates the Course before the Course Commencement Date;</p>
+            <p>(iii) It does not complete the Course by the Course Completion Date;</p>
+            <p>(iv) It terminates the Course before the Course Completion Date;</p>
+            <p>(v) It has not ensured that the Student meets the course entry or matriculation requirement as set by the organisation stated in Schedule A within any stipulated timeline set by CPE; or</p>
+            <p>(vi) The Student’s Pass application is rejected by Immigration and Checkpoints Authority (ICA).</p>
+
+            <p>The Student should be informed in writing of alternative study arrangements (if any), and also be entitled to a refund of the entire Course Fees and Miscellaneous Fees already paid should the Student decide to withdraw, within seven (7) working days of the above notice.</p>
+
+        <h4>2.2) Refund for Withdrawal Due to Other Reasons:</h4>
+            <p>If the Student withdraws from the Course for any reason other than those stated in Clause 2.1, the PEI will, within seven (7) working days of receiving the Student’s written notice of withdrawal, refund to the Student an amount based on the table in Schedule D.</p>
+
+        <h4>2.3) Refund During Cooling-Off Period:</h4>
+            <p>The PEI will provide the Student with a cooling-off period of seven (7) working days after the date that the Contract has been signed by both parties.</p>
+            <p>The Student will be refunded the highest percentage (stated in Schedule D) of the fees already paid if the Student submits a written notice of withdrawal to the PEI within the cooling-off period, regardless of whether the Student has started the course or not.</p>
+
+        <h4>2.4) Non-refundable Fee:</h4>
+            <p>The Course Application Fee is non-refundable under any circumstances. The Course Application Fee refers to the fee that the Student pays to the PEI for the sole purpose of processing the application form submitted so that the PEI can check if the Student meets the course admission requirements. The Course Application Fee does not have any fee component that is used to offset course fee payment. Course Fees are listed in Schedule B.</p>
+
+        <h4>2.5) Bad Financial Standing:</h4>
+            <p>Bad Financial Standing (BFS) is imposed if the students have any outstanding fee or charges. When it occurs, BFS is automatically applied to the student’s record. If the student is in BFS, they will not be able to enrol for classes/ examinations and will be refused eligibility for graduation and provision of results/certificate competency transcript.</p>
+            <p>If the students discontinue their unit/module enrolment, unit/module re-enrolment and/or re-admission will be refused until the outstanding balance, including late charges, have been paid in full. The Director may terminate a student’s enrolment during the teaching period, on the grounds that the student has not paid the outstanding balance of fees and charges. A student whose enrolment has been terminated may be reinstated if the student pays in full the total outstanding fee and charges due.</p>
+
+        <h4>3) ADDITIONAL INFORMATION</h4>
+            <ol>
+                <li>The laws of Singapore will apply to how this Contract will be read and to the rights the parties have under this Contract.</li>
+                <li>3.2) If any part of this Contract is not valid for any reason under the law of Singapore, this will not affect any other part of this Contract.</li>
+                <li>3.3) If the Student and the PEI cannot settle a dispute using the way arranged by the PEI, the Student and the PEI may refer the dispute to the CPE Mediation-Arbitration Scheme (<a href="https://www.cpe.gov.sg">www.cpe.gov.sg</a>).</li>
+                <li>3.4) All information given by the Student to the PEI will not be given by the PEI to anyone else, unless the Student signs in writing that he agrees or unless the PEI is allowed to give the information by law.</li>
+                <li>3.5) If there is any other agreement between the PEI & the Student that is different from the terms in this Contract, then the terms in this Contract will apply.</li>
+                <li>3.6) If the Student or the PEI does not exercise or delay exercising any right granted by this Contract, the Student and the PEI will still be able to exercise the same type of right under this Contract during the rest of the time the Contract continues.</li>
+                <li>3.7) If this Contract is also signed or translated in any language other than English and there is a difference from the English language copy of this Contract, the English language copy will apply.</li>
+            </ol>
+
+        <p style="text-align: right;">
+            Page 2 of 5<br>
+            Standard PEI-Student Contract Version 3.1<br>									
+            Standard TMTI-Student Contract Version 1.1									
+        </p>
+        
+        <h2>SCHEDULE A<br>COURSE DETAILS</h2>
+        <p><strong>Note: The information provided below should be the same as that submitted to the CPE.</strong></p>
+
+        <table>
+            <tr><td>1)</td><td>Course Title</td><td>Diploma in Culinary Arts</td></tr>
+            <tr><td>2)</td><td>Course Duration (in months)</td><td>9 Months</td></tr>
+            <tr><td>3)</td><td>Full-time or Part-time Course</td><td>Part-Time</td></tr>
+            <tr><td>4)</td><td>Course Commencement Date</td><td>31-Aug-07</td></tr>
+            <tr><td>5)</td><td>Course Completion Date</td><td>GRADUATED</td></tr>
+            <tr><td>6)</td><td>Date of Commencement of Studies (if later than Course Commencement Date)<br>Note: “N.A.” if both dates are the same</td><td>N/A</td></tr>
+            <tr><td>7)</td><td>Qualification (Name of award to be conferred on the Student upon successful Course completion)</td><td>Diploma in Baking, Bread and Pastry Production</td></tr>
+            <tr><td>8)</td><td>Organisation which develops the Course</td><td>THE MASTER'S TRAINING INTERNATIONAL PTE LTD</td></tr>
+            <tr><td>9)</td><td>Organisation which awards/confers the qualification</td><td>THE MASTER'S TRAINING INTERNATIONAL PTE LTD</td></tr>
+            <tr><td>10)</td><td>Course entry requirement(s)</td>
+                <td>Minimum age: 18 years old<br>Academic Requirement:<br>
+                    - At least 3 subject passes with Grade C6 and above at GCE O-Level<br>
+                    - OR completed 10 years of formal education OR equivalent.<br>
+                    Language Requirement:<br>
+                    - IELTS 4.5 or Pass in English Language at GCE 'N' Level or equivalent.</td></tr>
+            <tr><td>11)</td><td>Course schedule with modules and/or subjects</td><td><ul>
+                                                                                        <strong>Week 1 to Week 2:</strong> <li>Culinary Arts Principles</li>
+                                                                                        <strong>Week 3 to Week 7:</strong> <li>Culinary Principles and Processes</li>
+                                                                                        <strong>Week 8 to Week 11:</strong> <li>Cuisines I</li>
+                                                                                        <strong>Week 12 to Week 13:</strong> <li>Hot and Cold Desert</li>
+                                                                                        <strong>Week 14:</strong> <li>Team Skills</li>
+                                                                                        <strong>Week 15 to Week 17:</strong> <li>Fundamental of Culinary Skills</li>
+                                                                                        <strong>Week 18 to Week 20:</strong> <li>Core Culinary Skills</li>
+                                                                                        <strong>Week 21 to Week 23:</strong> <li>Classical Cuisines II</li>
+                                                                                        <strong>Week 24 to Week 27:</strong> <li>International Modern Cuisines</li>
+                                                                                        <strong>Week 28 to Week 32:</strong> <li>Culinary Leadership & Setting up your Business</li>
+                                                                                        <strong>Week 33 to Week 34:</strong> <li>Marketing your Business</li>
+                                                                                        <strong>Week 35:</strong> <li>Obtaining Employment in Baking</li>
+                                                                                        <strong>Week 36:</strong> <li>Final Presentation and Assessment</li>
+                                                                                    </ul></td></tr>
+            <tr><td>12)</td><td>Scheduled holidays (public and school) and/or semester/term break for course</td><td>The Master’s Training International follows Singapore Government gazetted public holidays.<br>
+                                                                                                                    Please check the Singapore Ministry of Manpower’s website:<br>
+                                                                                                                    <a href="http://www.mom.gov.sg/employment-practices/public-holidays" target="_blank">
+                                                                                                                    http://www.mom.gov.sg/employment-practices/public-holidays
+                                                                                                                    </a></td></tr>
+            <tr><td>13)</td><td>Examination and/or other assessment period</td><td><span class="bold">Week 36</span></td></tr>
+            <tr><td>14)</td><td>Expected examination results release date</td><td>Within 1 month from the examination date.</td></tr>
+            <tr><td>15)</td><td>Expected award conferment date</td><td>1 month after the examination date</td></tr>
+        </table>
+
+        <p style="text-align: right;">
+            Page 3 of 5<br>
+            Standard PEI-Student Contract Version 3.1<br>									
+            Standard TMTI-Student Contract Version 1.1									
+        </p>
+
+        <h2>SCHEDULE B<br>COURSE FEES</h2>
+
+        <table>
+            <tr><th>Fees Breakdown</th><th>Total Payable (with GST, if any) (S$)</th></tr>
+            <tr><td>Course Fee</td><td>S$2800</td></tr>
+            <tr><td>IWC</td><td>S$100</td></tr>
+            <tr><td><strong>Total Course Fees Payable</strong></td><td><strong>S$2900</strong></td></tr>
+            <tr><td>Number of Instalments</td><td>5</td></tr>
+        </table>
+
+        <h3>Instalment Schedule</h3>
+        <table>
+            <tr><th>Instalment Schedule</th><th>Amount (with GST, if any) (S$)</th><th>Date Due</th></tr>
+            <tr><td>1st Instalment</td><td>S$560</td><td>14-Nov-21</td></tr>
+            <tr><td>2nd Instalment</td><td>S$560</td><td>31-Aug-07</td></tr>
+            <tr><td>3rd Instalment</td><td>S$560</td><td>2-Oct-07</td></tr>
+            <tr><td>4th Instalment</td><td>S$560</td><td>3-Nov-07</td></tr>
+            <tr><td>5th Instalment</td><td>S$560</td><td>5-Dec-07</td></tr>
+            <tr><td><strong>Total</strong></td><td colspan="2"><strong>S$2900</strong></td></tr>
+        </table>
+
+        <p class="note">
+            1) Each instalment amount shall not exceed the following:
+            <ul>
+                <li>2 months’ worth of fees for non-EduTrust-certified PEIs without IWC*</li>
+                </ul>
+            2) Each instalment after the first shall be collected within one week before the next payment schedule.
+        </p>
+
+        <h2>SCHEDULE C<br>MISCELLANEOUS FEES</h2>
+
+        <table>
+            <tr><th>Purpose of Fee</th><th>Amount (with GST, if any) (S$)</th></tr>
+            <tr><td>Uniform/ID</td><td>S$45</td></tr>
+            <tr><td>Late payment fees</td><td>5% of the total fees</td></tr>
+            <tr><td>Replacement of ID</td><td>S$5</td></tr>
+            <tr><td>Re-taking Examination</td><td>S$50</td></tr>
+            <tr><td>Remodule Fee</td><td>25% Less (Total course fee amount)</td></tr>
+            <tr><td>Course Deferment Fee*</td><td>S$100 of the total fee</td></tr>
+            <tr><td>Reprinting of Course Certificate</td><td>S$150 per certificate</td></tr>
+            <tr><td>Printing and reprinting of Transcript</td><td>S$50 per transcript</td></tr>
+            <tr><td>Graduation Fee</td><td>S$200</td></tr>
+        </table>
+
+        <p class="note">
+            * Students are allowed to defer up to a maximum period of one (1) year, failing which he/she may be deemed to have withdrawn and must reapply.
+        </p>
+        <p class="note">
+    3) Miscellaneous Fees refer to non-compulsory fees payable only when applicable.
+        </p>
+        <p class="note">
+            4) Fees indicated above are subject to change by The Master’s Training International Private Limited.
+        </p>
+
+        <p style="text-align: right;">
+            Page 4 of 5<br>
+            Standard PEI-Student Contract Version 3.1<br>									
+            Standard TMTI-Student Contract Version 1.1									
+        </p>
+
+        <h2>Refund Policy on Withdrawal</h2>
+
+        <table>
+            <tr><th>% of [the amount of fees paid under Schedules B and C]</th><th>If Student’s written notice of withdrawal is received:</th></tr>
+            <tr><td>90%</td><td>more than 14 days before the Course Commencement Date</td></tr>
+            <tr><td>50%</td><td>before, but not more than 14 days before the Course Commencement Date</td></tr>
+            <tr><td>10%</td><td>after, but not more than 7 days after the Course Commencement Date</td></tr>
+            <tr><td>0%</td><td>more than 7 days after the Course Commencement Date</td></tr>
+        </table>
+
+        <p>The parties hereby acknowledge and agree to the terms stated in this Contract.</p>
+
+        <div class="signatures">
+            <div class="signature-box">
+                <div class="signature-section">
+                    <strong>SIGNED by the PEI</strong><br><br>
+                    <img src="sign.png" alt="Signature" height="50"><br><br>
+                    <p>Authorised Signatory of the PEI<br>
+                    Name: Herminio Adorna<br>
+                    Date: 14-Nov-21</p>
+                </div>
+
+                <div class="signature-section">
+                    <strong>Seal of PEI</strong>
+                </div>
+            </div>
+
+            <div class="signature-box">
+                <div class="signature-section">
+                    <strong>SIGNED by the Student</strong><br><br>
+                    Name of Student: SUSILAWATI<br>
+                    Date: 14-Nov-21
+                </div>
+
+                <div class="signature-section">
+                    <strong>SIGNED by the Student’s parent or legal guardian</strong><br>
+                    <em>(if the student is under eighteen (18) years of age)</em><br><br>
+                    Name of Parent or Legal Guardian: ___________<br>
+                    Date: ___________
+                </div>
+            </div>
+        </div>
+
+        <div class="attached-docs">
+            ATTACHED DOCUMENTS
+        </div>
+
+        <div class="page-number">
+            Page 5 of 5
+        </div>
+
+        <div class="footer">
+            <p><strong>The Master’s Training International Pte Ltd</strong><br>
+            114 Middle Road 08-00 Singapore 188971<br>
+            Tel: 98272121 / 96288239<br>
+            Registered with Committee for Private Education (CPE)<br>
+            Registration No. 201909892R valid from 26/01/2021 to 25/01/2023</p>
+        </div>
+    </div>
+</body>
+</html>
